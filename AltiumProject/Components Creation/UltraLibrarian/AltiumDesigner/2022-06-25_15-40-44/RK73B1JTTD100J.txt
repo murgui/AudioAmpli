@@ -1,0 +1,148 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "RES_RK73B_1J_KOA")
+Pad (Name "1") (Location -31.43700981, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 23.87401962, 35) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 31.43700981, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 23.87401962, 35) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -53.37400055, -27.5) (End -53.37400055, 27.5) (Layer Mechanical15) 
+Line (Width 6) (Start -53.37400055, 27.5) (End 53.37400055, 27.5) (Layer Mechanical15) 
+Line (Width 6) (Start 53.37400055, 27.5) (End 53.37400055, -27.5) (Layer Mechanical15) 
+Line (Width 6) (Start 53.37400055, -27.5) (End -53.37400055, -27.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-53.37400055, -27.5)
+Point (-53.37400055, 27.5)
+Point (53.37400055, 27.5)
+Point (53.37400055, -27.5)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-58.37400055, -32.5)
+Point (-58.37400055, 32.5)
+Point (58.37400055, 32.5)
+Point (58.37400055, -32.5)
+EndPolygon
+Line (Width 6) (Start -7.39173794, -22.5) (End 7.39173794, -22.5) (Layer TopOverlay) 
+Line (Width 6) (Start 7.39173794, 22.5) (End -7.39173794, 22.5) (Layer TopOverlay) 
+Line (Width 1) (Start -19.5, -17.5) (End -19.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -19.5, 17.5) (End -35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, 17.5) (End -35.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, -17.5) (End -19.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 19.5, 17.5) (End 19.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 19.5, -17.5) (End 35.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, -17.5) (End 35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, 17.5) (End 19.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, -17.5) (End 35.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, -17.5) (End 35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, 17.5) (End -35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, 17.5) (End -35.5, -17.5) (Layer Mechanical13) 
+Step (Name RES_RK73B_1J_KOA.step)
+EndFootprint
+
+Footprint (Name "RES_RK73B_1J_KOA-M")
+Pad (Name "1") (Location -33.4054985, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 27.81100082, 36.96849823) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 33.4054985, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 27.81100082, 36.96849823) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -67.31099701, -38.48424911) (End -67.31099701, 38.48424911) (Layer Mechanical15) 
+Line (Width 6) (Start -67.31099701, 38.48424911) (End 67.31099701, 38.48424911) (Layer Mechanical15) 
+Line (Width 6) (Start 67.31099701, 38.48424911) (End 67.31099701, -38.48424911) (Layer Mechanical15) 
+Line (Width 6) (Start 67.31099701, -38.48424911) (End -67.31099701, -38.48424911) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-67.31099701, -38.48424911)
+Point (-67.31099701, 38.48424911)
+Point (67.31099701, 38.48424911)
+Point (67.31099701, -38.48424911)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-62.31100082, -33.48424911)
+Point (-62.31100082, 33.48424911)
+Point (62.31100082, 33.48424911)
+Point (62.31100082, -33.48424911)
+EndPolygon
+Line (Width 6) (Start -7.03068557, -22.5) (End 7.03068557, -22.5) (Layer TopOverlay) 
+Line (Width 6) (Start 7.03068557, 22.5) (End -7.03068557, 22.5) (Layer TopOverlay) 
+Line (Width 1) (Start -19.5, -17.5) (End -19.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -19.5, 17.5) (End -35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, 17.5) (End -35.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, -17.5) (End -19.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 19.5, 17.5) (End 19.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 19.5, -17.5) (End 35.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, -17.5) (End 35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, 17.5) (End 19.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, -17.5) (End 35.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, -17.5) (End 35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, 17.5) (End -35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, 17.5) (End -35.5, -17.5) (Layer Mechanical13) 
+Step (Name RES_RK73B_1J_KOA.step)
+EndFootprint
+
+Footprint (Name "RES_RK73B_1J_KOA-L")
+Pad (Name "1") (Location -29.46850967, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 19.93700981, 33.03150177) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 29.46850967, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 19.93700981, 33.03150177) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -43.43701172, -20.51575089) (End -43.43701172, 20.51575089) (Layer Mechanical15) 
+Line (Width 6) (Start -43.43701172, 20.51575089) (End 43.43701172, 20.51575089) (Layer Mechanical15) 
+Line (Width 6) (Start 43.43701172, 20.51575089) (End 43.43701172, -20.51575089) (Layer Mechanical15) 
+Line (Width 6) (Start 43.43701172, -20.51575089) (End -43.43701172, -20.51575089) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-43.43701172, -20.51575089)
+Point (-43.43701172, 20.51575089)
+Point (43.43701172, 20.51575089)
+Point (43.43701172, -20.51575089)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-54.43700027, -31.51575089)
+Point (-54.43700027, 31.51575089)
+Point (54.43700027, 31.51575089)
+Point (54.43700027, -31.51575089)
+EndPolygon
+Line (Width 6) (Start -7.84673173, -22.5) (End 7.84673173, -22.5) (Layer TopOverlay) 
+Line (Width 6) (Start 7.84673173, 22.5) (End -7.84673173, 22.5) (Layer TopOverlay) 
+Line (Width 1) (Start -19.5, -17.5) (End -19.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -19.5, 17.5) (End -35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, 17.5) (End -35.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, -17.5) (End -19.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 19.5, 17.5) (End 19.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 19.5, -17.5) (End 35.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, -17.5) (End 35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, 17.5) (End 19.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, -17.5) (End 35.5, -17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, -17.5) (End 35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start 35.5, 17.5) (End -35.5, 17.5) (Layer Mechanical13) 
+Line (Width 1) (Start -35.5, 17.5) (End -35.5, -17.5) (Layer Mechanical13) 
+Step (Name RES_RK73B_1J_KOA.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "RK73B1JTTD100J") (PartCount 1) (DesPrefix "R?")
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Visible "1") (PinSwap 1) (PartSwap 1) (PinSeq 1) (Part 1)
+Pin (Location 400, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 1) (PartSwap 1) (PinSeq 2) (Part 1)
+Line (Width 8) (Start 125, 50) (End 175, -50) (Part 1)
+Line (Width 8) (Start 175, -50) (End 225, 50) (Part 1)
+Line (Width 8) (Start 225, 50) (End 275, -50) (Part 1)
+Line (Width 8) (Start 275, -50) (End 325, 50) (Part 1)
+Line (Width 8) (Start 325, 50) (End 375, -50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 125, 50) (Part 1)
+Line (Width 8) (Start 375, -50) (End 400, 0) (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2022 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "KOA Speer") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "RK73B1JTTD100J") (Part 1)
+Parameter (Name "RefDes") (Location 225, 150) (Height 137) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 250, -275) (Height 137) (Rotation 0) (Justification Center) (Value "DEV") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "RK73B1JTTD100J") (Part 1)
+Footprint (Name "RES_RK73B_1J_KOA")
+EndComponent
+EndComponents
