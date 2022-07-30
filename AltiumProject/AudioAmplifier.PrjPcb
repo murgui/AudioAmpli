@@ -122,6 +122,33 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VKGQLPKU
 
+[Document6]
+DocumentPath=OPAMPSupply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LKNHTSEP
+
+[ProjectVariant1]
+UniqueID=4768AFD8-4CDA-410A-92FF-E812C09738C7
+Description=MOUNT
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=J?|UniqueId=\IBVPRXSF|Kind=1|AlternatePart= 
+Variation2=Designator=J?|UniqueId=\HELZYGSS|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
