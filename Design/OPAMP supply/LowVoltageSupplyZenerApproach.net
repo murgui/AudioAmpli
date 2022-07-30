@@ -1,0 +1,10 @@
+* C:\Users\alumn\Desktop\AudioAmpli\Design\OPAMP supply\LowVoltageSupplyZenerApproach.asc
+V1 N001 0 37
+R1 N002 N001 2.2k
+C1 N002 0 100µ
+XD1 0 N002 SMAZ15
+R§OPAMPs N003 0 1500
+.tran 0 500m 1m uic
+.inc SMAZ15.spice.txt
+.backanno
+.end
